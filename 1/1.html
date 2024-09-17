@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>計算機</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "back" onclick = "location.href='../index.html';">back</div>
+    <div  id = "containerAns">
+        <div id = "answer"></div>
+    </div>
+    <div class = "container" id = "saveAns">
+        <div id="clearAllAns" onclick=clearAllAns()>clear</div>
+        <div id="sumAll" onclick=sumAll()>sum</div>
+        <ol id = "olAns">
+        </ol>
+        
+    </div>
+    <audio id = "beep">
+        <source src = "mp3/beep.mp3">
+    </audio>
+    <audio id = "pop">
+        <source src = "mp3/pop.mp3">
+    </audio>
+    <audio id = "ding">
+        <source src = "mp3/ding.mp3">
+    </audio>
+    <audio id = "clear">
+        <source src = "mp3/clear.mp3">
+    </audio>
+    <audio id = "erase">
+        <source src = "mp3/erase.mp3">
+    </audio>
+    <audio id = "sum">
+        <source src = "mp3/sum.mp3">
+    </audio>
+    <div class = "container" id = "containerNumBtn">
+        <button class = "button" id="seven" onclick=goAns(7)>7</button>
+        <button class = "button" id="eight" onclick=goAns(8)>8</button>
+        <button class = "button" id="nine" onclick=goAns(9)>9</button>
+
+        <button class = "button" id="four" onclick=goAns(4)>4</button>
+        <button class = "button" id="five" onclick=goAns(5)>5</button>
+        <button class = "button" id="six" onclick=goAns(6)>6</button>
+        
+        <button class = "button" id="one" onclick=goAns(1)>1</button>
+        <button class = "button" id="two" onclick=goAns(2)>2</button>
+        <button class = "button" id="three" onclick=goAns(3)>3</button>
+
+        <button class = "button" id="dot" onclick=dot()>.</button>
+        <button class = "button" id="zero" onclick=goAns(0)>0</button>
+        <button class = "button" id="equal" onclick=equal()>=</button>
+    </div>
+    <div class = "container" id="containerSideBtn">
+        <button class = "button" id="divide" onclick=divide()>÷</button>
+        <button class = "button" id="mutliply" onclick=mutliply()>x</button>
+        <button class = "button" id="minus" onclick=minus()>-</button>
+        <button class = "button" id="plus" onclick=plus()>+</button>
+        <button class = "button" id="C" onclick=clearAll()>C</button>
+    </div>
+    <script src = "1.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+*{
+    background-color: gray;
+}
+header{
+    text-align: center;
+    font-family: Verdana , Tahoma, sans-serif;
+    font-size: larger;
+}
+#title{
+    font-size: 8vw;
+    margin:1% 0% 1% 0%;
+}
+body{
+    margin:0px;
+    display: block;
+}
+.nav{
+    float:left;
+    padding:0px;
+    height:6.5vw;
+    width: 25%;
+    background-color: hsl(0, 0%, 16%);
+    color:hsl(208, 100%, 97%);
+    border-color: hsl(208, 100%, 97%);
+    border-style: solid;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 4vw;
+}
+.nav:hover , .footer:hover{
+    background-color: hsl(0, 0%, 36%);
+}
+.nav:active , .footer:active{
+    background-color: hsl(0, 0%, 50%);;
+}
+#img{
+    margin: 5%  5% 5% 10%;
+    width: 25%;
+    height: auto;
+    border-style: hidden;
+    float: left;
+}
+
+.allName{
+    margin: 10% 0% 0% 8%;
+    float: left;
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border-style:hidden;
+    font-size: auto;
+}
+#name{
+    font-size: 6vw;
+    margin:0% 0% 5% 0%;
+}
+.explainName{
+    font-size: 3vw;
+    margin:0px;
+    border-style: hidden;
+}
+.aside{
+    margin: 0px;
+    clear:both;
+    border-top: 3px solid;
+}
+#education , #experience, #autobiography , #workSet{
+    margin: 0px 0px 0px 3%;
+    font-size: 5vw;
+    font-style:bold;
+}
+.eduText , .expText , .work{
+    margin: 0px 0px 0px 4%;
+    font-size: 2vw;
+}
+#movingBear{
+    margin:-7% 9% 0% 0px;
+    width:35%;
+    height:auto;
+    float:right;
+}
+#movingBear:hover{
+    opacity: 70%;
+}
+#movingBear:active{
+    opacity: 55%;
+}
+#paragraphy{
+    margin: 0px 0px 0px 3%;
+    font-size:1.8vw;
+    font-family: monospace;
+}
+
+
+#Code{
+    background-color: hsla(0, 0%, 100%, 0.7);
+    height:3vw;
+    width:15%;
+    margin:0% 0% 2% 5%;
+    font-size: 2vw;
+    text-align: center;
+    color: hsl(0, 0%, 43%);
+}
+.hide{
+    display: inline-block;
+}
+#hidden{
+    font-size: 4vw;
+    margin:2% 0% 0% 0%;
+}
+#submit{
+    background-color: hsl(60, 15%, 76%);
+    margin-left:1%;
+    width: 5.5vw;
+    height: 2.5vw;  
+    border-color: rgb(120, 121, 121);
+}
+#submit:hover{
+    background-color: hsl(60, 15%, 66%);
+}
+#submit:active{
+    background-color: hsl(60, 15%, 56%);
+}
+.footer{
+    float:top;
+    padding:0px;
+    height:6.5vw;
+    width: 100%;
+    background-color: hsl(0, 0%, 16%);
+    color:hsl(208, 100%, 97%);
+    border-color: hsl(208, 100%, 97%);
+    border-style: solid;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 4vw;
+}

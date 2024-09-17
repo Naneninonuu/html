@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跩哥的履歷</title>
+    <link rel ="stylesheet" href = "style.css"> 
+</head>
+<body>
+    <header><!--introductory content-->
+        <h1 id = "title">跩哥的履歷</h1>
+    </header>
+    <nav><!--navigation bar, links-->
+        <div class = "nav" id = "nav1" onclick=scrollToEdu()> 學歷 </div>
+        <div class = "nav" id = "nav2" onclick=scrollToExp()> 經歷 </div>
+        <div class = "nav" id = "nav3" onclick=scrollToAbg()> 自傳 </div>
+        <div class = "nav" id = "nav4" onclick=scrollToWorkSet()> 作品集 </div>
+    </nav>
+    <main><!--main content-->
+        <img src = "img/bear.JPG" id = 'img'>
+        <section class="allName"><!--dependent content-->
+            <h3 id="name">跩哥</h3>
+            <h2 class="explainName"id="explainName1">我是跩哥，我愛我的B</h2>
+            <h2 class="explainName"id="explainName2">我是跩哥，我愛我的BB</h2>
+            <h2 class="explainName"id="explainName3">我是跩哥，我愛我的BBB</h2>
+            <h2 class="explainName"id="explainName4">我是跩哥，我愛我的BB</h2>
+            <h2 class="explainName"id="explainName5">我是跩哥，我愛我的B</h2>
+        </section>
+        <aside class="aside"><!--side content-->
+            <br>
+            <h1 id="education">學歷</h1>
+            <br>
+            <li class="eduText">北極圈極光區雪山二路白熊國小 (2011-2017)</li>
+            <img src = "img/bear.GIF" id="movingBear" onclick=play()> 
+            <audio id = "Bsound">
+                <source src ="B1.mp3" id = "source">
+            </audio>
+            <li class="eduText">寒冷圈高緯區長白二路跩熊國中 (2017-2020)</li>
+            <li class="eduText">北海道札幌市中央區超跩熊高中 (2020-2023)</li>
+
+            <br>
+            <h1 id="experience">經歷</h1>
+            <ol>
+            <li class="expText">國小畢業搬家到俄羅斯</li>
+            <li class="expText">國中時學壞變跩，畢業後被拋棄流浪到日本</li>
+            <li class="expText">高中畢業後，被朋友欺騙，被綁架來台灣</li>
+            <li class="expText">花費七天在台灣找到願意收留他的主人</li>
+            <li class="expText">2個月後被原主人拋棄售出至你賣我買</li>
+            </ol>
+            <br>
+            <h1 id="autobiography">自傳</h1>
+            <br>
+            <p id="paragraphy">「我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！我是跩哥我要吃！BBBBBBBBBBBBBBBBBBBBBBBBBBＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢＢ」</p>
+        </aside>
+            
+        <article><!--independent content-->
+            <br><br>
+            <h1 id="workSet">作品集</h1>
+            <ol>
+            <li class="work" ><a href = 1/1.html>計算機</a></li>
+            <li class="work">小人上吊wordle</li>
+            <li class="work">圈圈叉叉</li>
+            <li class="work">猜拳</li>
+            <li class="work">養倉鼠</li>
+            <li class="work">矩陣計算機</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <li class="work">我還沒有作品 辜～</li>
+            <h1 class="hide" id="hidden">隱藏作品集</h1>
+            <input type="text" class="hide" id="Code" placeholder="輸入密碼">
+            <button class="hide" id="submit" onclick=hiddenCode()>提交</button>
+            </ol>
+        </article>
+    
+    </main>
+    <footer><!--closing content-->
+        <div class = "footer" id = "footer1" onclick=scrollToTop()> 返回頂部 </div>
+        <div class = "footer" id = "footer1" onclick=scrollToEdu()> 學歷 </div>
+        <div class = "footer" id = "footer2" onclick=scrollToExp()> 經歷 </div>
+        <div class = "footer" id = "footer3" onclick=scrollToAbg()> 自傳 </div>
+        <div class = "footer" id = "footer4" onclick=scrollToWorkSet()> 作品集 </div>
+    </footer>
+    <script src = "index.js"></script>
+</body>
+</html>
